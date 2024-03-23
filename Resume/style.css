@@ -1,0 +1,299 @@
+/*navigation section*/
+#header{
+    background-image: url('https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?size=626&ext=jpg&ga=GA1.1.735520172.1710720000&semt=ais.jpg');
+    height: 65vh;
+    opacity: 1.0;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    color:white;
+    margin: 0px 10px;
+}
+.navigation-bar{
+    list-style: none;
+    padding-left: 0px;
+}
+.navigation-bar li{
+    display: inline;
+    margin: 0px 8px 8px 8px;
+}
+.navigation-bar li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navigation-bar li a:hover{
+    color: blue;
+    border-bottom: 1px solid white;
+}
+
+.text-align{
+    text-align: center;
+}
+
+/*Name and socail media*/
+
+#name-social-container{
+    margin-top: 15vh;
+}
+
+
+#name-header{
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color:orange;
+}
+
+.icons{
+    list-style: none;
+    margin-top: 2vh;
+}
+.icons li{
+    display: inline;
+}
+.icons li a{
+    text-decoration: none;
+}
+
+.icons li a i:hover{
+    box-shadow: 0px 0px 6px 4px;
+    color: red;
+}
+.icons li a i{
+    color:white;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/*Introduction*/
+#about{
+    height:auto ;
+    width:100%;
+    position: relative;
+}
+#personal-image{
+    height: 250px;
+    width: 250px;
+    margin:auto;
+    margin-top: -125px;
+}
+#personal-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#Introduction{
+    margin-left: 30%;
+    margin-right: 30%;
+    color:grey;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/*Skills*/
+
+#Skills{
+    background-color: rgb(240, 229, 232);
+    height: auto;
+    width: 100%;
+}
+
+#skills-icon{
+    margin: 10px;
+    padding: 10px;
+    display: inline;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+#skills-icon i{
+    font-size: 3rem;
+}
+.skills-format{
+    color: blue;
+    margin: 10px;
+    padding: 10px;
+}
+#Topics{
+    height: auto;
+    width: 100%;
+}
+#Topics ul{
+    padding: 10% 6% 10% 6%;
+}
+#Topics ul li{
+    width: 20%;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.container { 
+    background-color: rgb(192, 192, 192); 
+    width: 100%; 
+    border-radius: 15px; 
+} 
+
+.skill { 
+    color: white; 
+    padding: 1%; 
+    text-align: right; 
+    font-size: 20px; 
+    border-radius: 15px; 
+    text-align: left;
+} 
+.html { 
+    background-color: rgb(116, 194, 92); 
+    width: 80%; 
+} 
+
+.css { 
+    background-color: red; 
+    width: 60%; 
+} 
+.javascript{
+    background-color: blue; 
+    width:70%;
+}
+.cpp{
+    background-color: green; 
+    width: 90%;
+}
+
+.python{
+    background-color: yellowgreen; 
+    width:90%;
+}
+
+.Flask{
+    background-color: orange; 
+    width: 70%;
+}
+
+.ML{
+    background-color: rgb(111, 65, 210); 
+    width: 70%;
+}
+.Data-Science{
+    background-color: rgb(116, 194, 92); 
+    width: 70%;
+}
+/* Work Experience */
+
+#work-experienc{
+    height: auto;
+    width: 100%;
+}
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #000;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 50px;
+    border-top: 2px dashed;
+  }
+
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+    top: 0;
+    left: 50%;
+    margin-left: -10px;
+}
+.timeline-item.left .timeline-content {
+    left: 55%;
+}
+  
+.timeline-item.right .timeline-content {
+    left: -8%; 
+}
+.timeline-content {
+    position: relative;
+    left: 30px;
+    height: auto;
+    width: 400px;
+    /*border: 1px solid black;*/
+}
+
+.timeline-left {
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: left;
+    line-height: 0.7;
+}
+.timeline-right {
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: right;
+    line-height: 0.7;
+}
+#Role{
+    color: blue;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+#Companies{
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#Dates{
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.timeline-description {
+    margin-bottom: 10px;
+    color:grey;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.timeline-date {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Education */
+
+#Education{
+    background-color: rgb(240, 229, 232);
+    height: auto;
+    width: 100%;
+}

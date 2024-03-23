@@ -101,86 +101,199 @@ h1{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-/* Section*/
-
-section{
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-}
-section:nth-child(2n){
-    background-color: #9e9b9b29;
-}
-.section-heading{
-    width: auto;
-    padding: 20px 10px 10px;
-    font-weight: 400;
-}
-
-.section-heading span{
-    font-size: 40px;
-    color: #2857a4;
-    display: inline-block;
-    padding-top: 10px;
-    margin-right: 0.5rem;
-}
-
 /*Skills*/
-.mb75px{
-    margin-bottom: 75px;
-}
+
 #Skills{
+    background-color: rgb(240, 229, 232);
+    height: auto;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
-.skill-display{
+
+#skills-icon{
+    margin: 10px;
+    padding: 10px;
+    display: inline;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+#skills-icon i{
+    font-size: 3rem;
+}
+.skills-format{
+    color: blue;
+    margin: 10px;
+    padding: 10px;
+}
+#Topics{
+    height: auto;
+    width: 100%;
+}
+#Topics ul{
+    padding: 10% 6% 10% 6%;
+}
+#Topics ul li{
+    width: 20%;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.container { 
+    background-color: rgb(192, 192, 192); 
+    width: 100%; 
+    border-radius: 15px; 
+} 
+
+.skill { 
+    color: white; 
+    padding: 1%; 
+    text-align: right; 
+    font-size: 20px; 
+    border-radius: 15px; 
+    text-align: left;
+} 
+.html { 
+    background-color: rgb(116, 194, 92); 
+    width: 80%; 
+} 
+
+.css { 
+    background-color: red; 
+    width: 60%; 
+} 
+.javascript{
+    background-color: blue; 
+    width:70%;
+}
+.cpp{
+    background-color: green; 
+    width: 90%;
+}
+
+.python{
+    background-color: yellowgreen; 
+    width:90%;
+}
+
+.Flask{
+    background-color: orange; 
     width: 70%;
-    /*border: 2px solid black;*/
-    height: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
-.skill-progress{
-    width: 7rem;
-    height: 1.4rem;
-    background-color: lightgrey;
-    border-radius: 0.8rem;
-    -webkit-border-radius: 0.8rem;
-    -moz-border-radius: 0.8rem;
-    -ms-border-radius: 0.8rem;
-    -o-border-radius: 0.8rem;
-    border: 2px solid black;
+.ML{
+    background-color: rgb(111, 65, 210); 
+    width: 70%;
 }
-.skill-progress>div{
-    border-radius: 20px 0px 0px 20px;
-    -webkit-border-radius: 20px 0px 0px 20px;
-    -moz-border-radius: 20px 0px 0px 20px;
-    -ms-border-radius: 20px 0px 0px 20px;
-    -o-border-radius: 20px 0px 0px 20px;
+.Data-Science{
+    background-color: rgb(116, 194, 92); 
+    width: 70%;
 }
-.skill-name{
-    color: white;
-    font-size: 1rem;
-    margin-left: 10px;
-}
-.html{
-    width: 80%;
-    height: inherit;
-    background-color: #2857a4;
-    border-radius: 0.8;
-    -webkit-border-radius: 0.8;
-    -moz-border-radius: 0.8;
-    -ms-border-radius: 0.8;
-    -o-border-radius: 0.8;
-}
-
 /* Work Experience */
 
+#work-experienc{
+    height: auto;
+    width: 100%;
+}
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
 
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #000;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 50px;
+    border-top: 2px dashed;
+  }
+
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+    top: 0;
+    left: 50%;
+    margin-left: -10px;
+}
+.timeline-item.left .timeline-content {
+    left: 55%;
+}
+  
+.timeline-item.right .timeline-content {
+    left: -8%; 
+}
+.timeline-content {
+    position: relative;
+    left: 30px;
+    height: auto;
+    width: 400px;
+    /*border: 1px solid black;*/
+}
+
+.timeline-left {
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: left;
+    line-height: 0.7;
+}
+.timeline-right {
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: right;
+    line-height: 0.7;
+}
+#Role{
+    color: blue;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+#Companies{
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#Dates{
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.timeline-description {
+    margin-bottom: 10px;
+    color:grey;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.timeline-date {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 
 /* Education */
 
+#Education{
+    background-color: rgb(240, 229, 232);
+    height: auto;
+    width: 100%;
+}
